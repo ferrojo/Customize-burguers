@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customize your burger</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🍔 El Pariente Burguers 🤠</h1>
+    </header>
+    <main>
+        <section id="create-burger">
+            <h2>Create your burger</h2>
+            <form id="burger-form">
+                <label for="burger-name">Name of your burger:</label>
+                <input type="text" id="burger-name" required>
+                
+                <h3>Ingredients</h3>
+                <div id="ingredients-list">
+                    <label><input type="checkbox" value="Lettuce"> Lettuce</label>
+                    <label><input type="checkbox" value="Tomato"> Tomato</label>
+                    <label><input type="checkbox" value="Cheese"> Cheese</label>
+                    <label><input type="checkbox" value="Onion"> Onion</label>
+                    <label><input type="checkbox" value="Bacon"> Bacon</label>
+                    <label><input type="checkbox" value="Pickles"> Pickles</label>
+                </div>
+
+                <button type="submit">Add Burguer</button>
+            </form>
+        </section>
+        <section id="burger-list">
+            <h2>List of burguers</h2>
+            <ul id="burgers"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>Developed by Fernando Patiño © 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
